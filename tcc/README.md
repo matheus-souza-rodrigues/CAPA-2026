@@ -18,12 +18,12 @@ O código identifica uma embarcação designada como **alvo** entre as demais em
 
 | Arquivo | O que é |
 |---|---|
-| `tcc_alvo_v2.ipynb` | Notebook completo, do download dos dados às estimativas de marcação e distância |
-| `gerar_graficos_tcc.py` | Refaz os gráficos do TCC a partir das saídas do notebook |
+| `codigo_identificacao_alvo_vsnt.ipynb` | Notebook completo, do download dos dados às estimativas de marcação e distância |
+| `codigo_gerar_graficos.py` | Refaz os gráficos do TCC a partir das saídas do notebook |
 
 ## Como executar
 
-1. Abra `tcc_alvo_v2.ipynb` no **Google Colab**.
+1. Abra `codigo_identificacao_alvo_vsnt.ipynb` no **Google Colab**.
 2. Em *Ambiente de execução → Alterar o tipo de ambiente*, escolha **GPU (T4)**. Sem GPU o treino não termina.
 3. Execute as células **na ordem**. O notebook:
    - monta o Google Drive (para guardar pesos e saídas entre sessões);
