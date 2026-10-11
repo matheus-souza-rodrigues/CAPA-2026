@@ -32,13 +32,13 @@ Depois da adaptação ao domínio (conjunto de teste, IoU de 0,50):
 
 | Arquivo | O que é |
 |---|---|
-| `deteccao_vsnt_modd2.ipynb` | Notebook completo: baixa o MODD2, monta o dataset, avalia os modelos pré-treinados, faz o ajuste fino e gera as tabelas e figuras do trabalho |
+| `codigo_comparacao_detectores_vsnt.ipynb` | Notebook completo: baixa o MODD2, monta o dataset, avalia os modelos pré-treinados, faz o ajuste fino e gera as tabelas e figuras do trabalho |
 
 O notebook também avalia o SSD300, que foi rodado durante o experimento mas não entrou na versão final deste trabalho.
 
 ## Como executar
 
-1. Abra `deteccao_vsnt_modd2.ipynb` no **Google Colab**.
+1. Abra `codigo_comparacao_detectores_vsnt.ipynb` no **Google Colab**.
 2. Em *Ambiente de execução → Alterar o tipo de ambiente*, escolha **GPU (T4)**.
 3. Execute as células **na ordem**. O MODD2 é baixado pelo próprio notebook a partir dos arquivos oficiais do conjunto, e os pesos dos modelos são baixados pela biblioteca Ultralytics. Nada disso está guardado no repositório.
 
