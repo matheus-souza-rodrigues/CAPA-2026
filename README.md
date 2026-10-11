@@ -1,13 +1,15 @@
 # CAPA-2026
 
-Códigos dos trabalhos acadêmicos de Matheus de Souza Rodrigues — Curso de Aperfeiçoamento (CAPA) 2026, Centro de Instrução Almirante Alexandrino.
+Códigos dos trabalhos acadêmicos de **1T Matheus de Souza Rodrigues** no Curso de Aperfeiçoamento Avançado em Sistemas de Armas (C-ApA-Of-SA) 2026 — Centro de Instrução Almirante Alexandrino (CIAA), Marinha do Brasil.
 
-| Pasta | Conteúdo |
-| --- | --- |
-| [`artigo-iia/`](artigo-iia) | Artigo da disciplina de Inteligência Artificial — comparação de detectores de estágio único para detecção de alvos marítimos em VSNT, no dataset MODD2 |
-| [`artigo-wvc/`](artigo-wvc) | Artigo submetido ao Workshop de Visão Computacional (WVC) 2026 — detecção de alvos marítimos com YOLO em VSNT |
-| [`tcc/`](tcc) | Trabalho de Conclusão de Curso (em preparação) |
+Os três trabalhos usam o mesmo conjunto de dados, o MODD2, com imagens adquiridas por um veículo de superfície não tripulado (VSNT) real.
 
-Cada pasta tem o seu próprio README com a descrição do experimento e as instruções de reprodução.
+| Pasta | Trabalho |
+|---|---|
+| [`tcc/`](tcc) | **Trabalho de Conclusão de Curso** — identificação de um alvo específico entre as embarcações da cena e estimativa de sua marcação e distância por visão estéreo |
+| [`artigo-wvc/`](artigo-wvc) | **Artigo submetido à ACDSA** — comparação de quatro detectores de estágio único (YOLOv8, YOLO11, YOLO26 e SSD300) antes e depois da adaptação ao domínio marítimo |
+| [`artigo-iia/`](artigo-iia) | **Trabalho de Inteligência Artificial** — comparação de YOLOv8, YOLO11 e YOLO26 na detecção de alvos marítimos |
 
-Os notebooks foram feitos para rodar no Google Colab. Datasets e pesos treinados não estão versionados aqui — são baixados pelos próprios notebooks.
+Cada pasta tem o seu próprio README com a descrição do trabalho, os resultados e as instruções para reproduzir.
+
+Os notebooks foram feitos para rodar no **Google Colab com GPU**. O conjunto de dados e os pesos treinados não ficam guardados aqui: são baixados pelos próprios notebooks.
