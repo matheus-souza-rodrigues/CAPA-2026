@@ -4,6 +4,8 @@ Código do artigo **"Comparing One-Stage Detectors for Maritime Target Detection
 
 **Autores:** Matheus de Souza Rodrigues, Rigel Procópio Fernandes e Ighor de Souza Ribeiro — Centro de Instrução Almirante Alexandrino (CIAA), Marinha do Brasil.
 
+**PDF do artigo:** [artigo_ACDSA.pdf](artigo_ACDSA.pdf)
+
 ## O que o artigo faz
 
 Compara quatro detectores de estágio único — **YOLOv8, YOLO11, YOLO26 e SSD300** — na detecção de alvos marítimos a partir de um veículo de superfície não tripulado (VSNT). Os modelos, pré-treinados no conjunto COCO, são avaliados **antes e depois** da adaptação ao domínio por *transfer learning*, com os mesmos dados, a mesma partição e as mesmas métricas.
@@ -29,11 +31,12 @@ Depois da adaptação ao domínio (conjunto de teste, IoU de 0,50):
 - O SSD300 é o mais prejudicado, porque reduz a imagem para 300 × 300 pixels e um alvo de poucos pixels praticamente desaparece.
 - O tempo de inferência variou bastante entre sessões de GPU na nuvem, e o compromisso entre precisão e latência para uso embarcado fica para avaliação em hardware específico.
 
-## Arquivo
+## Arquivos
 
 | Arquivo | O que é |
 |---|---|
 | `codigo_comparacao_detectores_vsnt.ipynb` | Notebook completo do artigo: obtenção do MODD2, montagem do dataset, avaliação antes do treino, ajuste fino dos quatro modelos e avaliação final |
+| `artigo_ACDSA.pdf` | Texto do artigo submetido à ACDSA |
 
 ## Como executar
 
