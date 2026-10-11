@@ -35,7 +35,7 @@ Depois da adaptação ao domínio (conjunto de teste, IoU de 0,50):
 
 | Arquivo | O que é |
 |---|---|
-| `artigo_WVC2026_epocas20.ipynb` | Notebook completo do artigo: obtenção do MODD2, montagem do dataset, avaliação antes do treino, ajuste fino dos quatro modelos e avaliação final |
+| `codigo_comparacao_detectores_vsnt.ipynb` | Notebook completo do artigo: obtenção do MODD2, montagem do dataset, avaliação antes do treino, ajuste fino dos quatro modelos e avaliação final |
 
 ## Como executar
 
