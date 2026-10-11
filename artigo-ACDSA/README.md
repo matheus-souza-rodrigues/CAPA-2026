@@ -4,8 +4,6 @@ Código do artigo **"Comparing One-Stage Detectors for Maritime Target Detection
 
 **Autores:** Matheus de Souza Rodrigues, Rigel Procópio Fernandes e Ighor de Souza Ribeiro — Centro de Instrução Almirante Alexandrino (CIAA), Marinha do Brasil.
 
-> Esta pasta se chama `artigo-wvc` porque o artigo foi preparado inicialmente para o Workshop de Visão Computacional (WVC) 2026. A versão atual foi submetida à ACDSA.
-
 ## O que o artigo faz
 
 Compara quatro detectores de estágio único — **YOLOv8, YOLO11, YOLO26 e SSD300** — na detecção de alvos marítimos a partir de um veículo de superfície não tripulado (VSNT). Os modelos, pré-treinados no conjunto COCO, são avaliados **antes e depois** da adaptação ao domínio por *transfer learning*, com os mesmos dados, a mesma partição e as mesmas métricas.
