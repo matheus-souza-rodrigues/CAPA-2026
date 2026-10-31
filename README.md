@@ -13,3 +13,5 @@ Os três trabalhos usam o mesmo conjunto de dados, o MODD2, com imagens adquirid
 Cada pasta tem o seu próprio README com a descrição do trabalho, os resultados e as instruções para reproduzir.
 
 Os notebooks foram feitos para rodar no **Google Colab com GPU**. O conjunto de dados e os pesos treinados não ficam guardados aqui: são baixados pelos próprios notebooks.
+
+O melhor modelo criado pode ser baixado em https://drive.google.com/file/d/1LSl6YcHFPOTGT6P8VOJbS2L1U5ScTZtL/view?usp=sharing.
