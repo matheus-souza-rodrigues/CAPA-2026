@@ -1,6 +1,6 @@
 # Comparing One-Stage Detectors for Maritime Target Detection on USVs
 
-Código do artigo **"Comparing One-Stage Detectors for Maritime Target Detection on USVs"**, submetido à *International Conference on Artificial Intelligence, Computer, Data Sciences and Applications* (ACDSA).
+Código do artigo **"Comparing One-Stage Detectors for Maritime Target Detection on USVs"**, aceito na *International Conference on Artificial Intelligence, Computer, Data Sciences and Applications* (ACDSA).
 
 **Autores:** Matheus de Souza Rodrigues, Rigel Procópio Fernandes e Ighor de Souza Ribeiro — Centro de Instrução Almirante Alexandrino (CIAA), Marinha do Brasil.
 
